@@ -1,0 +1,26 @@
+.App {
+  max-width: 860px;
+  margin: 40px auto; 
+  /* Set the top and bottom margin to 4px and auto for left and right */
+  /* That will centralize the 860 pixels column in the middle of the page */
+}
+button {
+  background: none;
+  border: 2px solid #fff;
+  padding: 6px 12px; /* 6px top and bottom, 12px right and left */
+  border-radius: 4px; /* Rounds the corners of the border 4px */
+  color: #fff; /* Sets the text color of the button to white */
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em; /* Set the font size of the button text to 1em which is 12px */
+}
+button:hover {
+  background: #F8C8DC;
+  color: #fff;
+}
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
